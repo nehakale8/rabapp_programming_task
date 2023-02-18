@@ -136,5 +136,5 @@ The [Demo](https://drive.google.com/drive/folders/1PQurcdbnx3GmGBoEUmeYy0T_dpkEP
 | `/population` | GET          | NA                                                         | `{status: boolean, data: JSON}`        | Returns a list of farms with the lat long information and other data                         |
 | `/population/{pid}` | GET          | premise id                                                         | `{status: boolean, data: JSON}`        | Returns a particular farm with the lat long information and other data                         |
 | `/movements`  | GET          | NA                                                         | `{status: boolean, data: JSON}`        | Returns a list of Movements data with information about origin, destination, shipment start date, count of items moved etc.            |
-| `/movements`  | POST          | form data                                                         | `{status: boolean, data: JSON}`        | Returns a the created movement data.        |
-| `/map`           | GET          | NA                                                         | `{status: boolean, data: string}`      | Used to load data from the CSV file into the Database. Developoed for internal use. Not to be used or called from an external location and/or UI. |
+| `/movements`  | POST          | form data                                                         | `{status: boolean, data: JSON}`        | Returns the created movement data.        |
+
