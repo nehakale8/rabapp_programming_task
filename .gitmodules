@@ -1,0 +1,6 @@
+[submodule "rabapp_backend"]
+	path = rabapp_backend
+	url = https://github.com/nehakale8/rabapp_backend.git
+[submodule "rabapp_frontend"]
+	path = rabapp_frontend
+	url = https://github.com/nehakale8/rabapp_frontend.git
